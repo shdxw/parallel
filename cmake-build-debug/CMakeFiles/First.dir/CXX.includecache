@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/Users/ykrop/Desktop/Study/LAST TRASH/Parallel programming/First/main.cpp
+/cygdrive/c/Users/egork/Documents/projects/c++/hard/main.cpp
 thread
 -
 mutex
@@ -20,9 +20,9 @@ omp.h
 cstring
 -
 reduction.cpp
-/cygdrive/d/Users/ykrop/Desktop/Study/LAST TRASH/Parallel programming/First/reduction.cpp
+/cygdrive/c/Users/egork/Documents/projects/c++/hard/reduction.cpp
 
-/cygdrive/d/Users/ykrop/Desktop/Study/LAST TRASH/Parallel programming/First/reduction.cpp
+/cygdrive/c/Users/egork/Documents/projects/c++/hard/reduction.cpp
 thread
 -
 vector
@@ -31,4 +31,10 @@ iostream
 -
 barrier
 -
+
+/cygdrive/c/Users/egork/Documents/projects/c++/hard/threads.cpp
+thread
+-
+omp.h
+/cygdrive/c/Users/egork/Documents/projects/c++/hard/omp.h
 

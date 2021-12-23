@@ -1,1 +1,1 @@
-/usr/bin/c++.exe  -fopenmp -g -Wl,--enable-auto-import  CMakeFiles/First.dir/main.cpp.o CMakeFiles/First.dir/threads.cpp.o -o First.exe -Wl,--out-implib,libFirst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe  -fopenmp -g  -Wl,--enable-auto-import  CMakeFiles/First.dir/main.cpp.o CMakeFiles/First.dir/threads.cpp.o  -o First.exe -Wl,--out-implib,libFirst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

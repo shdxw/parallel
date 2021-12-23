@@ -249,26 +249,24 @@ double integrate_reduction(double a, double b, f_t F)
 }
 
 int main() {
-    //set_num_threads(1);
+    std::cout << "integrateDefault" << std::endl;
+    showExperimentResults(integrateDefault);
+    std::cout << "integrateCrit" << std::endl;
+    showExperimentResults(integrateCrit);
+    std::cout << "integrateMutex" << std::endl;
+    showExperimentResults(integrateMutex);
+    std::cout << "integrateArr" << std::endl;
+    showExperimentResults(integrateArr);
+    std::cout << "integrateArrAlign" << std::endl;
+    showExperimentResults(integrateArrAlign);
+    std::cout << "integrateReduction" << std::endl;
+    showExperimentResults(integrateReduction);
+    std::cout << "integratePS" << std::endl;
+    showExperimentResults(integratePS);
+    std::cout << "integrateAtomic" << std::endl;
+    showExperimentResults(integrateAtomic);
 
-//    std::cout << "integrateDefault" << std::endl;
-//    showExperimentResults(integrateDefault);
-//    std::cout << "integrateCrit" << std::endl;
-//    showExperimentResults(integrateCrit);
-//    std::cout << "integrateMutex" << std::endl;
-//    showExperimentResults(integrateMutex);
-//    std::cout << "integrateArr" << std::endl;
-//    showExperimentResults(integrateArr);
-//    std::cout << "integrateArrAlign" << std::endl;
-//    showExperimentResults(integrateArrAlign);
-//    std::cout << "integrateReduction" << std::endl;
-//    showExperimentResults(integrateReduction);
-//    std::cout << "integratePS" << std::endl;
-//    showExperimentResults(integratePS);
-//    std::cout << "integrateAtomic" << std::endl;
-//    showExperimentResults(integrateAtomic);
-
-    showExperimentResults(integrate_reduction);
+//    showExperimentResults(integrate_reduction);
 
 
     return 0;
