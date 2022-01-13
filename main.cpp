@@ -259,6 +259,8 @@ unsigned Fibonacci(unsigned n)
     return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 
+
+
 unsigned FibonacciNew(unsigned n)
 {
     if (n <= 2)
@@ -275,6 +277,22 @@ unsigned FibonacciNew(unsigned n)
 #pragma omp taskwait
     return x1 + x2;
 }
+
+//unsigned FibonacciNew(unsigned n){
+//    if (n <= 2)
+//        return 1;
+//    unsigned x1, x2;
+//#pragma omp task
+//    {
+//        x1 = FibonacciNew(n-1);
+//    };
+//#pragma omp task
+//    {
+//        x2 = FibonacciNew(n-2);
+//    };
+//#pragma omp taskwait
+//    return x1 + x2;
+//}
 
 ExperimentResult runExperimentFib() {
     double t0, t1, result;
